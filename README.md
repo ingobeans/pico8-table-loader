@@ -7,25 +7,15 @@ You can then load the now string version of the table back in to a real table wi
 
 Ex:
 From: ```s = {
-
   health=1,
-  
   data={
-  
     greeting="hello!"
-    
   }
-  
 }```
 To: ```s = [[{
-
   health=1,
-  
   data={
-  
     greeting="hello!"
-    
   }
-  
 }]]
 s = load_table(s)```
